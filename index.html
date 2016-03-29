@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery-2.2.2.min.js"></script>
+  <script src="app.js"></script>
+  <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+  <div>
+    <h1>Employee Information Entry</h1>
+    <form id = "empForm">
+      <label for = "firstName">First Name:</label>
+      <input type = "text" name ="nameFirst" id ="firstName"/>
+      <br>
+      <label for = "lastName">Last Name:</label>
+      <input type = "text" name = "nameLast" id ="lastName"/>
+      <br>
+      <label for = "empNumber">Employee Number:</label>
+      <input type = "number" name = "numEmployee" id = "empNumber"/>
+      <br>
+      <label for = "title">Title:</label>
+      <input type = "text" name = "empTitle" id = "title"/>
+      <br>
+      <label for = "reviewScore">Review Score:</label>
+      <input type = "number" name = "scoreReview" min = "1" max = "5" id = "reviewScore"/>
+      <br>
+      <label for = "salary">Salary:</label>
+      <input type = "number" name = "empSal" id ="salary"/>
+      <br>
+      <input type = "submit"/>
+    </form>
+  </div>
+  <div>
+    <ul>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+h1 {
+  color: blue;
+  text-decoration: underline;
+}
+form {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 5px solid #800080;
+}
